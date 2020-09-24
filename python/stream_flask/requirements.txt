@@ -1,0 +1,7 @@
+Flask
+flask-cors
+flask-socketio
+eventlet
+opencv-python
+Pillow
+imutils
