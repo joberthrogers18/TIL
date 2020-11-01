@@ -1,14 +1,7 @@
+from utils import thread_delay
 import threading
 import _thread
 import time
-
-def thread_delay(thread_name, delay):
-    print('foi')
-    count = 0
-    while count < 3:
-        time.sleep(delay)
-        count += 1
-        print(thread_name, '--------->', time.time())
 
 def start_and_wait_thread_finish(*args):
     for thr in args:
